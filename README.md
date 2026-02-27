@@ -1,6 +1,6 @@
 # Spark ALS 推荐系统项目
 ## 项目介绍
-本项目使用 PySpark 的 ALS 算法，基于用户行为数据构建推荐系统，为每个用户生成 Top-10 商品推荐。
+本项目的原始数据集retailrocket.zip,使用 PySpark 的 ALS 算法，基于用户行为数据构建推荐系统，为每个用户生成 Top-10 商品推荐。
 ## 文件说明
 `als_model.py`：ALS 模型训练和推荐代码
  `events.csv`：用户行为数据（点击、购买等）
